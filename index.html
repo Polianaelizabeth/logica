@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tema">EXERCÍCIOS DE FIXAÇÃO</h1>
+        <p id="inicio"> Lista de exercícios de fixação de lógica de programação.</p>
+       <p id="introducao">
+        Neste site serão postados vários exercícios que realizarei para treinar conceitos de lógica  de programação. para isso, usarei a linguagem Javascript. Vamos iniciar?
+        </p>
+    </header>
+    <div id="questao1" class="questoes">
+        <h2>QUESTÃO 1</h2>
+        <P class="textoInicio">
+            Ao clicar no botão será exibido o famoso "Olá mundo!!"
+        </P>
+        <button id="btn1" onclick="questao1()">primeiro programa</button>
+        <p id="text1"></p>
+    </div>
+
+    <div id="questao2" class="questoes">
+        <h2>QUESTÃO 2</h2>
+        <P class="textoInicio">
+            Qual o seu nome?
+        </P>
+        <input type="text" id="nomePessoa" placeholder="Digite seu nome"> <button id="btn2" onclick="questao2()">enviar</button>
+        <p id="text2"  style="display: none;">Olá <span class="Pessoa"></span>!!!! Seja bem vindo(a)!</p>
+    </div>
+
+    <div id="quetao3" class="questoes">
+        <h2>QUESTÃO 3</h2>
+        <P class="textoInicio"> Nome do funcionário: 
+        <input type="text" id="nomeFuncionario" placeholder="digite o nome aqui"></P>
+        <p class="textoInicio"> salário: 
+        <input type="number"id="valorSalario" placeholder="ex:1200"></p>
+        <button id="btn3" onclick="questao3()">enviar</button>
+        <p id="text3" style="display: none;"> O(A) funcionário(a) <span id="funcionario"></span> tem um salário de <span id="salario"></span>.</p>
+
+        
+    </div>
+    
+    <div id="questao4" class="questoes">
+        <h2>QUESTÃO 4</h2>
+        <p class="textoInicio">
+            Realizaremos a somatória de dois numeros. <br><br>
+
+            Digite um número: <input type="number" id="num1" placeholder="ex:10"> <br>
+            Digite outro número: <input type="number" id="num2" placeholder="ex:20"><br>
+
+            <button  id="btn4" onclick="questao4()">enviar</button>
+        </p>
+
+        <p id="text4" style="display: none;"> A soma entre <span id="n1"></span> e <span id="n2"></span> é igual a <span id="soma"></span>.</p>
+
+    </div>
+    <div id="questao5" class="questoes">
+        <h2>QUESTÃO 5</h2>
+        <P class="textoInicio">
+            Agora veremos a média de duas notas <br>
+
+            nota1: <input type="number" id="nota1"> <br>
+            nota2: <input type="number" id="nota2"> <br>
+            <button id="btn5" onclick="questao5()"> gerar média </button>
+
+            <p id="text5" style="display: none;"> A média entre <span id="primeiraNota"></span> e <span id="segundaNota"></span> é igual a <span id="media"></span>.</p>
+
+        </P>
+    </div>
+
+    <div id="questao6" class="questoes">
+        <h2>QUESTÃO 6</h2>
+
+        <P class="textoInicio">
+            Digite um numero para saber seu antecessor e sucessor: <br>
+            <input type="number" id="numero"> <button id="btn6">enviar </button>
+        </P>
+        <p id="text6" ></p>
+
+    </div>
+
+    <div id="questao7" class="questoes">
+        <h2>QUESTÂO 7</h2>
+
+        <p class="textoInicio">
+            Digite um número e veja seu dobro e sua terça parte. <br>
+            <input type="text" id="numDobro"> <button id="btn7">enviar </button>
+        </p>
+        <p id="text7-1"></p><p id="text7-2"></p>
+    </div>
+
+    <div id="quetao8" class="questoes">
+        <h2>QUESTÃO 8</h2>
+        <p class="textoInicio">
+            Digite uma distância em metros e veja sua seu valor em outras medidas: <br>
+            <input type="number" id="metros">
+            <button id="btn8">calcular</button>
+        </p>
+        <p id="text8"></p>
+    </div>
+
+    <div id="questao9" class="questoes">
+        <h2>QUESTAO 9 </h2>
+        <P class="textoInicio">
+            conversão de real em dolar: <br>
+            <input type="number" id="real" placeholder="real"> <button id="btn9">converter </button> <input type="number" id="dolar" placeholder="dólar">
+
+        </P>
+    </div>
+
+    <div id="questao10" class="questoes">
+        <h2>QUESTÃO 10</h2>
+        <P class="textoInicio">
+            Calculadora de área de parede e tinta necessária para pintura <br>
+
+            digite a largura da parede (metros): <input type="number" id="largura" placeholder="ex:5"> <br>
+            digite a altura da parede (metros): <input type="number" id="altura" placeholder="ex:3"> <br>
+            <button id="btn10">calcular</button> <br>
+
+            <p id="parede"></p>
+
+        </P>
+    </div>
+
+    <div id="questao11" class="questoes">
+
+        <h2>QUESTÃO 11</h2>
+        <P class="textoInicio">
+            Digite os valores de A, B e C na equação para saber o valor de Delta.
+            (ax2 + Bx + c = 0). <br>
+            
+            <input type="number" id="a" placeholder="A"> x2 + <input type="number"  id="b" placeholder="B"> x + <input type="number" id="c" placeholder="C"> = 0
+            <button id="btn11"> calcular delta</button>
+            <p id="text11"></p>
+
+        </P>
+    </div>
+
+    <div id="questao12" class="questoes">
+
+        <h2>QUESTÃO 12</h2>
+        <P class="textoInicio">
+            Digite o valor do produto para saber qual será seu preço promocional:
+            <input type="number" id="preco"><button id="btn12">calcular</button>
+            <p id="text12"></p>
+
+        </P>
+    </div>
+    <div id="questao13" class = "questoes">
+        <h2>QUESTÃO 13</h2>
+        <P class="textoInicio">
+            Calcule o valor do novo salário com reajuste de 15%: <br>
+            <input type="number" id="salarioSemAjuste"><button id="btn13">calcular</button>
+            <p id="text13"></p>
+        </P>
+    </div>
+    <div id="questao14" class="questoes">
+
+        <h2>QUESTÃO 14</h2>
+        <P class="textoInicio">
+            Para saber o valor que será pago no aluguel do carro, digite a quantidade de dias e de kms rodados. <br>
+            <input type="number" id="dias"> dias <br>
+            <input type="number" id="km"> kms rodados <br>
+            <button id="btn14"> calcular</button>
+            <p id="text14"></p>
+        </P>
+    </div>
+
+    <div id="questao15" class="questoes">
+        <h2>QUESTÃO 15</h2>
+
+        <p id="textoInicio">
+            Quantos dias o funcionário trabalhou? 
+            <input type="number" id="DiasTrabalhados"> <button id="btn15" > enviar </button>
+            <p id="text15"></p>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
