@@ -1,16 +1,18 @@
+
 body{
-    background-color: rgb(191, 56, 228);
+    background-color: rgb(227, 199, 242);
     font-size: 15pt;
     color:rgb(23, 20, 20);
 }
 header{
+    color: rgb(122, 21, 173);
     text-align: center;
     font-size: 15pt;
 }
 
 .questoes{
     
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgb(159, 87, 194);
     text-align: center;
     border: 2pt, dashed, black;
     margin-bottom: 10pt;
@@ -21,9 +23,9 @@ header{
     border-radius: 5pt;
 }
 button{
-    background-color: rgba(250, 250, 250, 0.3);
+    background-color: rgb(131, 29, 164);
     color: rgb(245, 221, 255);
 }
 input{
-    background-color: rgb(193, 240, 238);
+    background-color: rgb(235, 210, 244);
 }

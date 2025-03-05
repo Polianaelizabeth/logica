@@ -69,11 +69,15 @@ document.querySelector("#btn7").addEventListener("click",function(){
     let numBase = Number(document.querySelector("#numDobro").value);
     let numDobro = document.querySelector("#text7-1");
     let numTerca = document.querySelector("#text7-2");
-
-
+    let dobro = Number(numBase*2);
+    let divide3 = Number (numBase/3);
+    if (numBase % 3 !== 0){
+        divide3 = divide3.toFixed(2);
+    };
     
-    numDobro.textContent = `O dobro de ${numBase} é ${numBase*2}`;
-    numTerca.textContent = `A terça parte de ${numBase} e ${(numBase/3).toFixed(3)}`
+    
+    numDobro.textContent = `O dobro de ${numBase} é ${dobro}`;
+    numTerca.textContent = `A terça parte de ${numBase} e ${(divide3)}`
 });
 
 document.querySelector("#btn8").addEventListener("click", function(){
@@ -137,12 +141,12 @@ document.querySelector("#btn14").addEventListener("click", function(){
 
     let valor = Number((dias*90)+(km*0.2));
 
-    document.querySelector("#text14").textContent = `O valor do aluguel de ${dias}, que foram rodados ${km} kms será de $ ${valor}`;
+    document.querySelector("#text14").textContent = `O valor do aluguel de ${dias}, que foram rodados ${km} kms será de $ ${valor}. São $90 por dia e $0.20 por km rodado.`;
 });
 
 document.querySelector("#btn15").addEventListener("click", function(){
     let diasTrabalhados = Number(document.querySelector("#DiasTrabalhados").value);
     salario = Number(diasTrabalhados*25*8);
 
-    document.querySelector("#text15").textContent = `O valor do funcionário, levando em conta 8 horas trabalhadas por dia a $25 por hora é de $ ${salario}.`
+    document.querySelector("#text15").textContent = `O valor do salário do funcionário é de $ ${salario}, levando em conta 8 horas trabalhadas por dia e $25 por hora.`
 });
