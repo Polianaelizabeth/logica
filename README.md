@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao repositório da página [Lógica de Programação](https://polianaelizabeth.github.io/logica/)! 🎯
 
-Este projeto tem como objetivo oferecer pequenos desafios de lógica de programação em caixas interativas, ajudando iniciantes e praticantes a desenvolverem suas habilidades com raciocínio lógico e programação.
+Este projeto tem como objetivo mostrar o desenvolvimento de pequenos desafios de lógica de programação em caixas interativas com o objetiv de treinar as habilidades com raciocínio lógico e programação.
 
 ## 🚀 Como acessar?
 Basta visitar o link: [https://polianaelizabeth.github.io/logica/](https://polianaelizabeth.github.io/logica/)
